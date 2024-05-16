@@ -4,9 +4,28 @@
   box-sizing: border-box;
 }
 
+html {
+  /* respecting the brower's font-size property that the user chose
+  so we are setting a % value instead of hardcoding px.
+  10px/16px = 0.625 = 62.5%
+  */
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  width: 100%;
 }
