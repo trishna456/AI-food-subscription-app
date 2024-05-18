@@ -2,6 +2,10 @@
 /* GENERAL REUSABLE COMPONENTS */
 /* ************************************************* */
 
+/* ************************************************* */
+/* HEADINGS */
+/* ************************************************* */
+
 .heading-primary,
 .heading-secondary {
   font-weight: 700;
@@ -36,6 +40,10 @@
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
+
+/* ************************************************* */
+/* BUTTONS */
+/* ************************************************* */
 
 .btn:link,
 .btn:visited {
@@ -77,10 +85,9 @@
   box-shadow: inset 0 0 0 3px #fff;
 }
 
-/* adding a helper class & marking it important because these properties need to get added no matter anything else */
-.margin-right-sm {
-  margin-right: 1.6rem !important;
-}
+/* ************************************************* */
+/* CONTAINER */
+/* ************************************************* */
 
 .container {
   /* another convention - 1140px */
@@ -88,6 +95,10 @@
   margin: 0 auto;
   padding: 0 3.2rem;
 }
+
+/* ************************************************* */
+/* GRID */
+/* ************************************************* */
 
 /* creating reusable grid styles */
 .grid {
@@ -110,4 +121,17 @@
 
 .grid--center-v {
   align-items: center;
+}
+
+/* ************************************************* */
+/* UTILITY CLASSES */
+/* ************************************************* */
+
+/* adding a helper class & marking it important because these properties need to get added no matter anything else */
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }
