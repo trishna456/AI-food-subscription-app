@@ -45,6 +45,7 @@
 /* LINKS */
 /* ************************************************* */
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -53,9 +54,27 @@
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   font-weight: 600;
+
+  /* styles for btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
   /* put transition on the original state */
   /* transition: background-color 0.3s; */
   transition: all 0.3s;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .btn--full:link,
@@ -100,6 +119,13 @@
 .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgb(230, 125, 34, 0.5);
 }
 
 /* ************************************************* */
