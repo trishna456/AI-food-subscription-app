@@ -173,7 +173,7 @@ em = current font size
     display: block;
   }
 
-  .icon-mobile-nav[name="menu-outline"] {
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
