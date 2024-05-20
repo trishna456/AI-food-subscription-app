@@ -56,6 +56,30 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* respecting the brower's font-size property that the user chose
+  so we are setting a % value instead of hardcoding px.
+  10px/16px = 0.625 = 62.5%
+  */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  /* only works if there is nothing absolutely position in relation to the body */
+  overflow-x: hidden;
+}
+
 /* ************************************************* */
 /* GENERAL REUSABLE COMPONENTS */
 /* ************************************************* */
