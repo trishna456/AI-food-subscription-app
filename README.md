@@ -44,7 +44,7 @@ To get started with Omnifood, follow these steps:
 
 - HTML5
 - CSS3 (Sass)
-- - Flexbox
+- Flexbox
 - CSS Grid
 - JavaScript (jQuery)
 - Git
